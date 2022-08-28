@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Progetto sito informarica
+## Descrizione
+Questo progetto è stato organizzato con lo scopo di permettere agli studenti del corso di informatica dell'Università degli Studi di Udine di poter trovare facilmente i materiali e il link dei vari corsi.
 
-You can use the [editor on GitHub](https://github.com/achgue/achgue.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Vi è una pagina di benvenuto dove l'utente sarà in grado di accedere alla pafina del corso a cui interessato tramite un dropdown menu. In oltre in questa appaioni i link per reindirizzare lo user ai social associati al corso.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Scelto l'anno l'utente si troverà su una pagina dove selezionerà la materia di cui vuole recuperare il materiale.
 
-### Markdown
+Sulla pagina della materia scelta sono presenti il link al gruppo teams, quello alla pagina e-learning e i vari materiali a cui lo studente potrà accedere.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+L'idea iniziale era quella di riuscire ad organizzare meglio la sezione di discord relativa algi esami e permettere: la visualizzazione del file senza doverlo necessariamente scaricarlo, includendo magari anche non solo materiali del prof ma riassunti e progetti degli studenti.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/achgue/achgue.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Idee da implementare:
+- Sezione con spiegazione dell'utilizzo del server di discord
+- 
