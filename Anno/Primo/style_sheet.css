@@ -30,6 +30,7 @@ a:hover{
 }
 
 h1,h3,h4{
+    transition: 0.3s;
     font-weight: normal;
 }
 
@@ -48,7 +49,7 @@ footer {
         font-size: 13px;
     }	
     h1{
-        font-size: 25px;
+        font-size: 28px;
     }
     h3{
         font-size: 18px;
