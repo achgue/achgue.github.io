@@ -1,0 +1,69 @@
+*{
+    font-family: Poppins, serif;
+}
+
+hr{
+    
+}
+body{
+    background-color: #242424;
+    color: #EDEDED;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #686868;
+    transition: 0.3s;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: #DA0037;
+    font-size: 16px;
+}
+.main_section{
+    margin-bottom: 30px;
+}
+.secondary_section{
+    margin-top: 20px;
+}
+
+h1,h3,h4{
+    font-weight: normal;
+}
+
+footer {
+    color: #afafaf;
+    position: fixed;
+    bottom: 0;
+    font-size: small;
+    margin: 20px 0px;
+    z-index: -1;
+}
+@media only screen and (max-width: 700px){
+    .pulsante_materia{
+        width: 200px;
+        height: 90px;
+        font-size: 13px;
+    }	
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    a{
+        font-size: 14px;
+    }
+    a:hover{
+        font-size: medium;
+    }
+    footer {
+        position: relative;
+        font-size: 12px;
+    }
+}
