@@ -42,6 +42,35 @@ footer {
     margin: 20px 0px;
     z-index: -1;
 }
+.sidenav {
+    height: 100%;
+    width: 80px;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 18px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    vertical-align: top;
+    background-color:#686868;
+  }
+
 @media only screen and (max-width: 700px){
     .pulsante_materia{
         width: 200px;
