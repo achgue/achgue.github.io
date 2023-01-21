@@ -1,0 +1,7 @@
+4ut
+
+-leviamio frase sotto il titolo
+-modifica colore bottone
+-sfondo e page colori più accessi
+-rivedere il font
+-layout sezioni(distanza tra una e l'altra)

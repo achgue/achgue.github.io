@@ -1,0 +1,493 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+*{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, #f3e7e9 0%, #e3eeff 100%);
+}
+.hilighted-text{
+    color: #FFB830;
+}
+
+
+/*hero classes*/
+.hero{
+    background-image: url('assets/slideshow/charlota-blunarova-r5xHI_H44aM-unsplash.jpg');
+    top:0;
+    color: #ffffff;
+    background-color: #fff;
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background:linear-gradient(0deg, #0000006c, rgba(255, 0, 149, 0)), url('assets/slideshow/monica-silva-WPFhdTwQFTA-unsplash.jpg');
+    background-size:cover;
+    position: relative;
+}
+/*Barra di navigazione*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: 0.3s;
+    box-shadow: 0px 5px 5px #07141d28;
+}
+.stiky.nav{
+    height: 65px;
+    background-image: linear-gradient(to left, #dee3fd 0%, #dee3fd 100%);
+    transition: 0.3s;
+    color: #07141d;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-btn{
+    padding: 10px 15px 5px 15px;
+    font-weight: medium;
+    transition: 0.3s;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+    border:#fff solid 2px;
+}
+.nav-btn:hover{
+    background-color: #fff;
+    color: #07141d;
+    cursor: pointer;
+}
+.stiky .nav-btn{
+    border: #07141d solid 2px;
+    color: #07141d;
+}
+.stiky .nav-btn:hover{
+    background-color: #07141d;
+    color: #eeeeee;
+    cursor: pointer;
+}
+.catch-phrase{
+    margin-top: 3px;
+    font-size: 40px;
+    font-weight: medium;
+}
+.vertical-align{
+    text-shadow: 2px 2px 3px #00000073;
+    position: relative;
+    top: 50%;
+}
+.main-title{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero .catch-phrase{
+    margin-bottom: 20px;
+}
+
+
+/**/
+.mission-section{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 800px;
+}
+.mission-section .quote{
+    font-size: 1.313rem;
+}
+
+.section-subtitle{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.313rem;
+    margin: auto;
+    width: 800px;
+}
+
+/*call to action*/
+.go-to-form-button{
+    font-size: 20px;
+    background-color: #6E7FF3;
+    color: #FBF7EE;
+    border-radius: 50px;
+    border: 0;
+    height: 60px;
+    width: 240px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #cacff0;
+    color: #07141d;
+    cursor: pointer;
+}
+.call-to-action p{
+    margin-bottom: 27px;
+}
+
+
+/*section classes*/
+.basic-section{
+    padding-top: 60px;
+    width: 100%;
+    min-height: 750px;
+}
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/*info card*/
+.info_card{
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    padding: 50px;
+    width: 395px;
+    min-height: 300px;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+.card_image{
+    width: 250px;
+    position: relative;
+    top: -120px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 1.125rem;
+    margin-top: -120px;
+}
+
+.second_section .card-title{
+    font-size: 60px;
+}
+hr{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+/*form
+form{
+    background-color: #F8ECCD;
+    border-radius: 15px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    margin: 0px 10%;
+    padding: 50px;
+    max-width: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin: auto;
+    margin-bottom: 50px;
+}
+label{
+    color: #4D4D4D;
+}
+input[type=submit]{
+    text-align: center;
+    font-size: 20px;
+    background-color: #DD5353;
+    color: #FBF7EE;
+    border-radius: 50px;
+    border: 0;
+    height: 60px;
+    min-width: 240px;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+.form-button{
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: #aa4646;
+    cursor: pointer;
+}
+input[type=text]{
+    height: 50px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 14px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}*/
+
+
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #FBF7EE;
+    padding: 50px 0px 0px 80px;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 80px;
+
+}
+
+.section-divider{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 63px;
+}
+
+.instagram-icon{
+    color: #fff;
+    transition: 0.3s;
+}
+
+.instagram-icon:hover{
+    cursor: pointer;
+    color: #07141d;
+}
+
+.social-icons{
+    margin-bottom: 40px;
+}
+ion-icon {
+    font-size: 40px;
+  }
+
+
+
+
+
+@media screen and (max-width: 480px){
+    p{
+        font-size: 18px;
+    }
+    .hero{
+        height: 500px;
+        padding: 0px;
+    }
+    .vertical-align{
+        position: relative;
+        top: 50px;
+    }
+    .main-title{
+        font-size: 80px;
+    }
+    .catch-phrase{
+        margin-top: 3px;
+        font-size: 25px;
+    }
+    .hero .catch-phrase{
+        margin-bottom: 60px;
+    }
+
+    .basic-section{
+        padding-top: 40px;
+        width: 100%;
+        min-height: 750px;
+    }
+    .section-title{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .info_card{
+        margin: 40px 20px;
+        width: 290px;
+        padding: 35px 10px;
+        min-height: 280px;
+    }
+    .card_image{
+        width: 300px;
+        position: relative;
+        top: -120px;
+    }
+    .card-title{
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .section-divider{
+        text-align: center;
+        background-color: #F8ECCD;
+        padding: 63px 20px;
+    }
+    button{
+        font-size: 18px;
+        background-color: #DD5353;
+        color: #FBF7EE;
+        border-radius: 50px;
+        border: 0;
+        height: 55px;
+        width: 210px;
+        transition: 0.4s;
+    }
+
+    /* FORM */
+    form{
+        padding: 40px;
+        max-width: 100%;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+    label{
+        color: #4D4D4D;
+    }
+    input[type=submit]{
+        text-align: center;
+        font-size: 20px;
+        background-color: #DD5353;
+        color: #FBF7EE;
+        border-radius: 50px;
+        border: 0;
+        height: 60px;
+        min-width: 240px;
+        transition: 0.2s;
+        margin-top: 30px;
+    }
+    .form-button{
+        text-align: center;
+    }
+    input[type=submit]:hover{
+        background-color: #aa4646;
+        cursor: pointer;
+    }
+    input[type=text]{
+        height: 50px;
+        width: 100%;
+        margin: 14px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+}
+    @media screen and (max-width: 1080px) and (min-width: 480px){
+        .hero{
+            height: 500px;
+        }
+        .vertical-align{
+            position: relative;
+            top: 50px;
+        }
+        .main-title{
+            font-size: 80px;
+        }
+        .catch-phrase{
+            margin-top: 3px;
+            font-size: 25px;
+        }
+        .hero .catch-phrase{
+            margin-bottom: 60px;
+        }
+        button{
+            font-size: 18px;
+            background-color: #DD5353;
+            color: #FBF7EE;
+            border-radius: 50px;
+            border: 0;
+            height: 55px;
+            width: 210px;
+            transition: 0.4s;
+        }
+    }
+    
+@media screen and (max-width: 1724px) and (min-width: 1080px){
+     .basic-section{
+        padding-top: 42px;
+        width: 100%;
+        min-height: 750px;
+    }
+    .section-title{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .info_card{
+        margin: 40px 25px;
+        width: 290px;
+        padding: 35px 10px;
+        min-height: 280px;
+    }
+    .card_image{
+        width: 300px;
+        position: relative;
+        top: -120px;
+    }
+    .card-title{
+        font-weight: 900;
+    }
+    .card-content{
+        font-size: 18px;
+    }
+    .section-divider{
+        text-align: center;
+        background-color: #F8ECCD;
+        padding: 63px 20px;
+    }
+}
