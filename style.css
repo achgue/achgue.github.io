@@ -285,20 +285,16 @@ ion-icon {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .stiky .main-title{
-        display: none;
-    }
-    .stiky .nav-btn{
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;
+    .go-to-form-button{
+        font-size: 14px;
+        width: 180px;
+        height: 45px;
     }
     .catch-phrase{
         margin-top: 3px;
         font-size: 25px;
     }
-    .hero p{
+    .hero .call-phrase{
         font-size: 16px;
     }
     .hero .catch-phrase{
@@ -306,7 +302,6 @@ ion-icon {
     }
     .basic-section{
         padding-top: 40px;
-        
         min-height: 750px;
     }
     .section-title{
