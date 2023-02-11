@@ -98,7 +98,6 @@ body{
 .catch-phrase{
     margin-top: 3px;
     font-size: 40px;
-    font-weight: medium;
 }
 .vertical-align{
     text-shadow: 2px 2px 3px #00000073;
@@ -124,10 +123,10 @@ body{
 /*Mission section*/
 .mission-section{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     margin: auto;
     width: 800px;
 }
@@ -145,10 +144,16 @@ body{
 }
 
 /*call to action*/
+.section-divider{
+    text-align: center;
+    padding: 27px;
+    background-image: linear-gradient(120deg, #a9d3fa 0%, #a3dffa 100%);
+}
 .go-to-form-button{
     font-size: 20px;
-    background-color: #6E7FF3;
+    background-color: #4ab3fc;
     color: #FBF7EE;
+    text-shadow: 2px 2px 3px #00000025;
     border-radius: 50px;
     border: 0;
     height: 60px;
@@ -156,11 +161,11 @@ body{
     transition: 0.4s;
 }
 button:hover{
-    background-color: #cacff0;
-    color: #07141d;
+    background-color: #f9748f;
     cursor: pointer;
 }
 .call-to-action p{
+    font-size: 27px;
     margin-bottom: 27px;
 }
 
@@ -169,12 +174,12 @@ button:hover{
 .basic-section{
     padding-top: 70px;
     width: 100%;
-    min-height: 750px;
 }
 .section-title{
     text-align: center;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 500;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
@@ -183,7 +188,11 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.calendly-inline-widget{
+    padding-top: 0px;
 }
 
 
@@ -197,29 +206,29 @@ button:hover{
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 50px;
-    width: 395px;
-    min-height: 300px;
+    min-height: 290px;
+    width: 280px;
     grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 5px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);   
     transition: all 0.2s;
 }
-.card_image{
-    width: 250px;
+.card-image{
+    padding-top: 10px;
+    top: -60px;
     position: relative;
-    top: -120px;
-    margin-bottom: 10px;
 }
 .card-title{
+    padding-top: 35px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 10px;
 }
 .card-text{
+    margin-top: -100px;
     font-size: 1.125rem;
-    margin-top: -120px;
 }
 
 .second_section .card-title{
@@ -232,6 +241,20 @@ hr{
     margin: auto;
 }
 
+/*
+.cards{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.card_image{
+    width: 200px;
+    position: relative;
+    top: -120px;
+}
+.card-content{
+    font-size: 19px;
+}
+*/
 
 
 footer{
@@ -242,13 +265,6 @@ footer{
     color: #FBF7EE;
     padding: 50px 0px 0px 0px;
     font-size: 20px;
-}
-
-
-.section-divider{
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 63px;
 }
 
 .instagram-icon{
@@ -266,7 +282,7 @@ footer{
 }
 ion-icon {
     font-size: 40px;
-  }
+}
 
 
 
@@ -277,7 +293,7 @@ ion-icon {
         font-size: 18px;
     }
     .hero{
-        height: 500px;
+        height: 550px;
         padding: 0px;
     }
     .main-title{
@@ -290,9 +306,16 @@ ion-icon {
         width: 180px;
         height: 45px;
     }
+    .vertical-align{
+        margin-left: 2%;
+        margin-right: 2%;
+        text-shadow: 2px 2px 3px #00000073;
+        position: relative;
+        top: 48%;
+    }
     .catch-phrase{
         margin-top: 3px;
-        font-size: 25px;
+        font-size: 28px;
     }
     .hero .call-phrase{
         font-size: 16px;
@@ -302,7 +325,6 @@ ion-icon {
     }
     .basic-section{
         padding-top: 40px;
-        min-height: 750px;
     }
     .section-title{
         text-align: center;
@@ -316,12 +338,12 @@ ion-icon {
         padding-top: 100px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         margin: auto;
         width: 90%;
     }
     .info_card{
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         width: 290px;
         padding: 35px 10px;
         min-height: 280px;
@@ -335,7 +357,7 @@ ion-icon {
     }
     .section-divider{
         text-align: center;
-        padding: 63px 20px;
+        padding: 20px;
     }
     footer{
         text-align: center;
@@ -349,6 +371,15 @@ ion-icon {
     }
     .nav-btn{
         display: none;
+    }
+    .call-to-action p{
+        font-size: 24px;
+    }
+    .last-section{
+        padding-top: 70px;
+    }
+    .last-section .section-subtitle{
+        margin-bottom: 50px;
     }
 
 }
@@ -391,6 +422,9 @@ ion-icon {
     }
     .nav li{
         display: none;
+    }
+    .last-section .section-subtitle{
+        margin-bottom: 50px;
     }
 }
 
@@ -442,17 +476,12 @@ ion-icon {
 @media screen and (max-width: 1724px) and (min-width: 1080px){
      .basic-section{
         width: 100%;
-        min-height: 750px;
     }
     .section-title{
         text-align: center;
         margin-left: 50px;
         margin-right: 50px;
     }
-    .section-subtitle{
-
-    }
-
     .info_card{
         margin-left: 1.5%;
         margin-right: 1.5%;
@@ -460,16 +489,5 @@ ion-icon {
         padding: 35px 10px;
         min-height: 280px;
     }
-    .cards{
-        margin-top: 80px;
-        margin-bottom: 0px;
-    }
-    .card_image{
-        width: 200px;
-        position: relative;
-        top: -120px;
-    }
-    .card-content{
-        font-size: 19px;
-    }
+
 }
