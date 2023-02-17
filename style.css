@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://www.fontshare.com/fonts/satoshi');
 
 
 *{
@@ -28,9 +28,9 @@ body{
     background-size:cover;
     background-position: center;
     width: 100%;
-    height: 700px;
+    height: 750px;
     text-align: center;
-    background:linear-gradient(0deg, #0000006c, rgba(255, 0, 149, 0)), url('assets/slideshow/monica-silva-WPFhdTwQFTA-unsplash.jpg');
+    background:linear-gradient(0deg, #00000080, rgba(255, 0, 149, 0)), url('assets/slideshow/monica-silva-WPFhdTwQFTA-unsplash.jpg');
     background-size:cover;
     position: relative;
 }
@@ -95,12 +95,8 @@ body{
     color: #eeeeee;
     cursor: pointer;
 }
-.catch-phrase{
-    margin-top: 3px;
-    font-size: 40px;
-}
 .vertical-align{
-    text-shadow: 2px 2px 3px #00000073;
+    text-shadow: 3px 3px 5px #00000050;
     position: relative;
     top: 50%;
 }
@@ -113,11 +109,19 @@ body{
     font-weight: bold;
 }
 .hero .catch-phrase{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 3px;
     margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0px 10px;
 }
 .hero .call-phrase{
     font-size: 21px;
+    margin-bottom: 27px;
 }
+
 
 
 /*Mission section*/
@@ -126,7 +130,6 @@ body{
     padding-top: 70px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 70px;
     margin: auto;
     width: 800px;
 }
@@ -147,10 +150,11 @@ body{
 .section-divider{
     text-align: center;
     padding: 27px;
-    background-image: linear-gradient(120deg, #a9d3fa 0%, #a3dffa 100%);
+    background-image: linear-gradient(120deg, #a9d3fa80 0%, #a3defa79 100%);
 }
 .go-to-form-button{
     font-size: 20px;
+    font-weight: 500;
     background-color: #4ab3fc;
     color: #FBF7EE;
     text-shadow: 2px 2px 3px #00000025;
@@ -159,13 +163,15 @@ body{
     height: 60px;
     width: 240px;
     transition: 0.4s;
+    box-shadow: 2px 3px 5px #07141d0a;
 }
 button:hover{
     background-color: #f9748f;
     cursor: pointer;
 }
-.call-to-action p{
-    font-size: 27px;
+.section-divider .call-to-action p{
+    text-shadow: 3px 3px 5px #00000025;
+    font-size: 30px;
     margin-bottom: 27px;
 }
 
@@ -223,7 +229,7 @@ button:hover{
 .card-title{
     padding-top: 35px;
     font-size: 1.5rem;
-    font-weight: 550;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 .card-text{
@@ -239,22 +245,8 @@ hr{
     width: 50%;
     text-align: center;
     margin: auto;
+    margin-top: 70px;
 }
-
-/*
-.cards{
-    margin-top: 80px;
-    margin-bottom: 0px;
-}
-.card_image{
-    width: 200px;
-    position: relative;
-    top: -120px;
-}
-.card-content{
-    font-size: 19px;
-}
-*/
 
 
 footer{
@@ -284,8 +276,135 @@ ion-icon {
     font-size: 40px;
 }
 
+/*Quarta sezione*/
+#card-1{
+    background:linear-gradient(0deg, #365b7e8f, #00000091), url('assets/s3_cards/christian-wiediger-ueLA4x2gZf8-unsplash.jpg');
+    background-size:cover;
+    position: relative;
+}
+#card-2{
+    background:linear-gradient(0deg, #365b7e8f, #00000091), url('assets/s3_cards/marilia-castelli-YCLF4cRn5cM-unsplash.jpg');
+    background-size:cover;
+    position: relative;
+}
+#card-3{
+    background:linear-gradient(0deg, #365b7e8f, #00000091), url('assets/s3_cards/tamara-bellis-U2ymajzuqFk-unsplash.jpg');
+    background-size:cover;
+    position: relative;
+}
+#card-4{
+    background:linear-gradient(0deg, #365b7e8f, #00000091), url('assets/s3_cards/gemma-evans-nph59r9hkVg-unsplash.jpg');
+    background-size:cover;
+    position: relative;
+}
+#card-5{
+    background:linear-gradient(0deg, #365b7e8f, #00000091), url('assets/s3_cards/anna-oliinyk-nCPpMv69m1s-unsplash.jpg');
+    background-size:cover;
+    position:relative;
+}
 
+.fourth_section .section-subtitle{
+    margin-bottom: 40px;
+}
+.wrapper{ display: flex; flex-flow: row; flex-wrap: wrap; justify-content: center; 
+    margin-bottom: 40px;
+}
+.wrapper > *{ margin: 0 1rem 2rem; }
+.card{
+    position: relative;
+    overflow: hidden;
+    display: flex; 
 
+    width: 300px; /* Box dimensions */
+    height: 400px; 
+    
+    border-radius: 4px; /* Styling */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+    transition: box-shadow 0.56s ease-in-out; /* Animation */
+    /* background-color: rgba(0,0,0,.2); /* for debugging */
+  }
+  .card__text{ /* Just for styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: rgba(255,255,255,.90); 
+    font-size: 1.3rem;
+    font-weight: 500; 
+    text-shadow: 2px 2px 10px #000;
+}
+/* The image container */
+.card__thumbnail{
+    position: relative;
+    overflow: hidden;  
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .card__thumbnail > img{
+    height: 100%;
+  }
+  .card__thumbnail > .card__text{
+    position: absolute; left: 0; bottom: 0; }  
+
+.hidden-left{
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateX(-100%);
+    transition-delay: 400ms;
+}
+.hidden-shrink{
+    opacity: 0;
+    transition: all 0.5s;
+    transform: scale(0);
+    transition-delay: 400ms;
+}
+.info_card:nth-child(1){
+    transition-delay: 200ms;
+}
+.info_card:nth-child(2){
+    transition-delay: 400ms;
+}
+.info_card:nth-child(3){
+    transition-delay: 600ms;
+}
+
+.info_card:nth-child(4){
+    transition-delay: 200ms;
+}
+.info_card:nth-child(5){
+    transition-delay: 400ms;
+}
+.info_card:nth-child(6){
+    transition-delay: 600ms;
+}
+
+.card:nth-child(1){
+    transition-delay: 100ms;
+}
+.card:nth-child(2){
+    transition-delay: 200ms;
+}
+.card:nth-child(3){
+    transition-delay: 300ms;
+}
+.card:nth-child(4){
+    transition-delay: 400ms;
+}
+.card:nth-child(5){
+    transition-delay: 500ms;
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+    transform: scale(100%);
+}
 
 
 @media screen and (max-width: 480px){
@@ -311,9 +430,9 @@ ion-icon {
         margin-right: 2%;
         text-shadow: 2px 2px 3px #00000073;
         position: relative;
-        top: 48%;
+        top: 40%;
     }
-    .catch-phrase{
+    .hero .catch-phrase{
         margin-top: 3px;
         font-size: 28px;
     }
@@ -343,17 +462,26 @@ ion-icon {
         width: 90%;
     }
     .info_card{
-        margin-bottom: 70px;
-        width: 290px;
-        padding: 35px 10px;
-        min-height: 280px;
+        width: 250px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        min-height: 220px;
     }
     .card_image{
+        padding: 0px;
+        margin: 0px;
         width: 200px;
     }
+    .card-text{
+        padding-bottom: 10px;
+    }
     .card-title{
-        font-size: 25px;
+        font-size: 22px;
         margin-bottom: 10px;
+        
+    }
+    .card-content{
+        font-size: 18px;
     }
     .section-divider{
         text-align: center;
@@ -381,6 +509,12 @@ ion-icon {
     .last-section .section-subtitle{
         margin-bottom: 50px;
     }
+    .card{
+        height: 300px;
+    }
+    .card__text{
+        font-size: 1.2rem;
+    }
 
 }
 @media screen and (max-width: 750px) and (min-width: 480px){
@@ -400,6 +534,9 @@ ion-icon {
         width: 200px;
         height: 50px;
     }
+    .vertical-align{
+        top: 45%;
+    }
     .mission-section{
         padding-left: 0px;
         padding-right: 0px;
@@ -407,7 +544,7 @@ ion-icon {
     }
     .info_card{
         width: 240px;
-        height: 385px;
+        min-height: 300px;
     }
     .section-title{
         text-align: center;
@@ -426,6 +563,12 @@ ion-icon {
     .last-section .section-subtitle{
         margin-bottom: 50px;
     }
+    .card{
+        height: 300px;
+    }
+    .card__text{
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 1080px) and (min-width: 750px){
@@ -434,11 +577,13 @@ ion-icon {
     }
     .hero .catch-phrase{
         margin-top: 3px;
-        font-size: 35px;
         margin-bottom: 20px;
     }
     .hero .call-phrase{
         font-size: 18px;
+    }
+    .vertical-align{
+        top: 40%;
     }
     .go-to-form-button{
         font-size: 18px;
@@ -454,7 +599,8 @@ ion-icon {
         font-size: 35px;
     }
     .info_card{
-        width: 355px;
+        width: 240px;
+        margin: 30px 100px;
     }
     .section-subtitle{
         width: 70%;
@@ -468,8 +614,17 @@ ion-icon {
         padding: 5px 15px;
         font-size: 16px;
     }
+    .nav li{
+        display: none;
+    }
     .nav-btn{
         font-size: 18px;
+    }
+    .card{
+        height: 300px;
+    }
+    .card__text{
+        font-size: 1.2rem;
     }
 }
     
@@ -488,6 +643,9 @@ ion-icon {
         width: 290px;
         padding: 35px 10px;
         min-height: 280px;
+    }
+    .wrapper{
+        padding: 0px 200px;
     }
 
 }
