@@ -1,11 +1,13 @@
-@import url('https://www.fontshare.com/fonts/satoshi');
-
+@font-face {
+    font-family: 'SatoshiVariable';
+    src: url('assets/Font/Satoshi-Variable.ttf')
+  }
 
 *{
     top: 0;
     margin: 0;
     padding: 0;
-    font-family: 'Satoshi', sans-serif;
+    font-family: 'SatoshiVariable', sans-serif;
     
 }
 html {
